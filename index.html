@@ -5,12 +5,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script>
+      $(document).on("ready",function()
+      {
+          $.get('data.txt',{id:"bitcoin"},function(data){
+              $('#bnd').html(data);
+          });
+      });
+
+    </script>
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>DistBit Wallet By DistBit</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Scroll Animation -->
     <link href="css/aos.css" rel="stylesheet">
     <!-- Animate CSS -->
@@ -77,7 +90,7 @@
                                     <li><a href="#ourprojects" >Our Projects</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <a href="https://my.ippassport.io" class="btn radius-5 th-bg"
-                                                 style="font-weight: 600; margin-left: 20px; margin-top: -15px;"> GO TO DISTBIT? </a>
+                                                 style="font-weight: 400; margin-left: 20px; margin-top: -10px; padding: 10px 20px 10px;">DistBit WEB</a>
 
                             </nav>
                         </div>
@@ -92,7 +105,7 @@
                     <div class="container">
                           <div class="row">
                               <!--Title---------------------->
-                              <div class="col-md-6 col-sm-6"  style="display: inline-block;">
+                              <div class="col-md-6 col-sm-6 align-self-center"  style="display: inline-block;">
                                 <div class="banner-caption-wrap align-center">
                                     <h1 class="banner-title size-h1">
                                       The Fastest and Safest Digital Way to Buy and Sell Cryptocurrencies</h1>
@@ -108,11 +121,7 @@
                               <!--Image---------------------->
                               <div class="col-md-6 col-sm-6">
                                   <div class="" style="padding-left: 20px; padding-right: 20px;">
-                                    <div class="row">
-                                      <figure class="center-block">
                                         <img src="img/img1.svg" alt="">
-                                      </figure>
-                                    </div>
                                   </div>
                               </div>
                           </div>
@@ -120,77 +129,48 @@
                 </div>
 <!--END Cover Page-->
 <!--1st SECTION---------------------->
-<section>
-    <div class="container">
-     <!--Content--------------------->
-        <div class="row" style="padding-top:50px;">
-            <!------------------------>
-            <div data-aos="fade-up" class="col-md-4 col-sm-6">
-                <div class="" style="padding-left: 20px; padding-right: 20px;">
-                  <!--Image--->
-                  <figure class="center-block">
-                    <img src="img/icono1.svg" alt="">
-                  </figure>
-                  <!--Text--->
-                    <div class="text">
-                      <h4 class="title style-title"
-                          style="text-align:center; margin-top:40px; margin-bottom:40px; font-size: 20px;">
-                          Do not worry! <br> We will keep you safe in the world of cryptocurrencies.</h4>
+        <section id="about-us">
+            <div class="container" >
+                <div class="row">
+                    <!--Image---------------------->
+                    <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-right" data-aos-delay="300" >
+                          <img src="img/img7.svg" alt="">
                     </div>
+                  <!--Content---------------------->
+                  <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
+                      <h2 class="title style-title" style="text-align:center; margin-bottom:50px; font-size: 28px;">
+                          The most powerful and easy-to-use cryptocurrency wallet
+                      </h2>
+
+                      <div class="" style="margin:50px;">
+                        <div class="" style=" margin-bottom:50px;">
+                          <a href="https://my.ippassport.io" class="btn radius-5 th-bg"
+                                       style="font-weight: 200; margin-left: 20px; margin-top: -15px;"> Create Account </a></div>
+
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> Buy and sell cryptocurrencies in minutes</h6>
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> Control your funds from anywhere in the world</h6>
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> Trade cryptocurrencies</h6>
+                      </div>
+
+                  </div>
                 </div>
             </div>
-            <!------------------------>
-            <div data-aos="fade-up" data-aos-delay="300" class="col-md-4 col-sm-6">
-                <div class="" style="padding-left: 20px; padding-right: 20px;">
-                  <!--Image--->
-                  <figure class="center-block">
-                    <img src="img/icono2.svg" alt="">
-                  </figure>
-                  <!--Text--->
-                    <div class="text">
-                      <h4 class="title style-title"
-                          style="text-align:center; margin-top:40px; margin-bottom:40px; font-size: 20px;">
-                          We use state-of-the-art encryption, storing your keys locally in a secure vault on your device.</h4>
-                    </div>
-                </div>
-            </div>
-            <!------------------------>
-            <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 hidden-sm">
-                <div class="" style="padding-left: 20px; padding-right: 20px;">
-                  <!--Image--->
-                  <figure class="center-block">
-                    <img src="img/icono3.svg" alt="">
-                  </figure>
-                  <!--Text--->
-                    <div class="text ">
-                      <h4 class="title style-title"
-                          style="text-align:center; margin-top:40px; margin-bottom:40px; font-size: 20px;">
-                        We help you back up your wallet so you can get your funds back in case your device is lost or stolen.</h4><!-- / Title -->
-                    </div>
-                </div>
-            </div>
-        </div>
-  <!--END Content--------------------->
-  </div>
-</section>
+        </section>
+<!-- SECTION---------------------->
 <!--1st SECTION---------------------->
 <section>
     <div class="container"                >
         <div class="row">
           <!--Content---------------------->
-            <div class="col-md-6 col-sm-6" data-aos="fade-up">
-                <h3 class="title style-title" style="text-align:center; margin-bottom:50px; margin-top:15%; font-size: 28px;">
+            <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
+                <h3 class="title style-title" style="text-align:center; margin-bottom:50px; font-size: 28px;">
                     Connect through <font size=6>DistBitWalle.io</font> <br>
                     <font size=5>to extend the coverage of everything we have for you safely while keeping your keys safely on your mobile device.</font>
                 </h3>
             </div>
                 <!--Image---------------------->
-                <div class="col-md-6 col-sm-6" data-aos="fade-right" data-aos-delay="300" >
-                  <div class="img-center">
-                    <figure class="center-block">
-                      <img src="img/img4.svg" alt="" style="vertical-align:center;">
-                    </figure>
-                  </div>
+                <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-right" data-aos-delay="300" >
+                      <img src="img/img4.svg" alt="">
                 </div>
         </div>
         <div class="row">
@@ -255,14 +235,15 @@
 <!--1st SECTION---------------------->
 <section style="padding-bottom:0; background-color: #fff;">
   <div class="container">
-    <div class="row" data-aos="fade-up">
-        <h3 class="style-title" style="  text-align:center;">
+    <div class="row justify-content-center" data-aos="fade-up">
+        <h3 class="style-title" style="  text-align:center; margin-bottom:50px;">
           Own your funds, you are in full control
         </h3>
-        <p style="  text-align:center;">DistBit Wallet is a true non-custodial cryptocurrency wallet. <br> This means that you and only you have access to your funds.</p>
+        <h6 style="  text-align:center; line-height: 1.5; font-size: 20px;">
+          DistBit Wallet is a true non-custodial cryptocurrency wallet. <br> This means that you and only you have access to your funds.</h6>
     </div>
 
-    <div class="row" data-aos="fade-up">
+    <div class="row justify-content-center" data-aos="fade-up">
       <div class="">
         <!--Image--->
         <figure class="center-block">
@@ -276,13 +257,13 @@
 <!--1st SECTION---------------------->
 <section>
   <div class="container">
-    <div class="row" data-aos="fade-up">
+    <div class="row justify-content-center" data-aos="fade-up">
         <h3 class="style-title" style="  text-align:center;">
             Get started with just one touch! <br> It's easy and fast
         </h3>
     </div>
 
-    <div class="row" data-aos="fade-up">
+    <div class="row justify-content-center" data-aos="fade-up">
       <div class="">
         <!--Image--->
         <figure class="center-block">
@@ -297,28 +278,306 @@
         <section id="about-us">
             <div class="container" >
                 <div class="row">
-                    <!--Image---------------------->
-                    <div class="col-md-6 col-sm-6" data-aos="fade-right" data-aos-delay="300" >
-                      <div class="img-center">
-                        <figure class="center-block">
-                          <img src="img/img5.svg" alt="" style="vertical-align:center;">
-                        </figure>
-                      </div>
-                    </div>
                   <!--Content---------------------->
-                  <div class="col-md-6 col-sm-6" data-aos="fade-up">
-                      <h3 class="title style-title" style="text-align:center; margin-bottom:50px; margin-top:15%; font-size: 28px;">
-                            Supporting all ERC-20 tokens
+                  <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
+                      <h3 class="title style-title" style="margin-bottom:30px;">
+                            DistBit Exchange
                       </h3>
-                      <p>No need to add custom tokens manually. <br> Experience the speed of the most powerful cryptocurrency exchange.</p>
+                      <h4 style="margin-bottom:30px;">Exchange digital currencies for others or buy and sell cryptocurrencies</h4>
+                      <div class="" style="margin:50px;">
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> Best rates on the market</h6>
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> High limits</h6>
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> No verification for exchange transactions</h6>
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> More than 150 cryptocurrencies</h6>
+                        <h6><FONT style="COLOR:#165df0; font-size: 25px;">•</FONT> Buy bitcoin with USD, EUR or GBP</h6>
+                      </div>
+
+                  </div>
+                  <!--Image---------------------->
+                  <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-right" data-aos-delay="300" >
+                        <img src="img/img6.svg" alt="" style="vertical-align:center;">
                   </div>
                 </div>
             </div>
         </section>
+<!-- SECTION----------------------->
+        <section>
+          <div class="container" style="max-width: 1500px;">
+            <div class="row justify-content-center" data-aos="fade-up">
+                <h3 class="style-title" style="  text-align:center; margin-bottom:50px;">
+                    15 criptomonedas en una sola aplicacion!
+                </h3>
+
+            </div>
+
+              <div class="row justify-content-center" style="margin-left: 10px; margin-right: 10px;">
+
+                <!--1--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row">
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/BNB.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>BND</h6>
+                        <p>Binance Coin</p>
+                      </div>
+                    </div>
+                    <p id="bnd" style="font-size: 15px;"> </p>
+                  </div>
+                </div>
+                <!--2--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row">
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/BTC.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>BTC</h6>
+                        <p>Bitcoin</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--3--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row">
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/ETC.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>ETC</h6>
+                        <p>Ethereum Classic</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--4--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row">
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/ETH.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>ETH</h6>
+                        <p>Ethereum</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--5--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row">
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/HT.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>HT</h6>
+                        <p>Huobi</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+
+                <!--6--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/LINK.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>LINK</h6>
+                        <p>ChainLink</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--7--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/LTC.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>LTC</h6>
+                        <p>Litecoin</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--8--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/SAI.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>SAI</h6>
+                        <p>SAI</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--9--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/TUSD.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>TUSD</h6>
+                        <p>TrueUSD</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--10--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/USDC.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>USDC</h6>
+                        <p>USD Coin</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+
+                <!--11--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/USDT.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>USDT</h6>
+                        <p>Tether</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--12--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/WAVES.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>WAVES</h6>
+                        <p>Waves</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--13--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/XLM.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>XLM</h6>
+                        <p>Stellar</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--14--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/XRP.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>XRP</h6>
+                        <p>Ripple</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+                <!--15--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/XTZ.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>XTZ</h6>
+                        <p>Tezos</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 15px;">00.0000</p>
+                  </div>
+                </div>
+
+
+              </div>
+          </div>
+        </section>
 <!-- SECTION---------------------->
         <section style="background-color:#000;">
           <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <!--Title---------------------->
                       <h2 class="banner-title size-h1" style="text-align:center; color: #fff; font-size: 40px;">
                         Start Selling and Buying Cryptocurrencies <br> Safely and Intuitively

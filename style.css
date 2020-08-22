@@ -1947,3 +1947,22 @@ footer.dark-black .widget_recent_entries ul li{
     cursor: pointer;
     background-color: #3d94ee;
   }
+
+  .card {
+    background-color:#3c4655;
+    margin:10px;
+    color:#fff;
+    border-radius: 1em;
+  }
+  .card-row { margin-top:15px; margin-bottom:10px; }
+
+  .card-img {
+    max-width: 50px;
+  }
+
+  .card-text {
+    margin: 10px;
+  }
+.c-text-p p {
+  font-size: 13px;
+}
