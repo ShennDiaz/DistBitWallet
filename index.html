@@ -9,13 +9,13 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
     <script>
-    var obj = JSON.parse('data.txt');
-      $(document).on("ready",function()
-      {
-          $.get(obj,{id:"bitcoin"},function(data){
-              $('#bnd').html(data);
-          });
-      });
+    var txt = '{"name":"John", "age":30, "city":"New York"}'
+    var obj = JSON.parse(txt);
+    document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+    {
+        $('#bnd').html(data);
+    }
+
 
     </script>
     <meta name="robots" content="index, follow">
