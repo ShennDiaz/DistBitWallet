@@ -11,7 +11,7 @@
     <script>
       $(document).on("ready",function()
       {
-          $.get('data.txt',{id:"bitcoin"},function(data){
+          $.get(JSON.parse('data.txt'),{id:"bitcoin"},function(data){
               $('#bnd').html(data);
           });
       });
