@@ -9,7 +9,8 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
     <script>
-      var txt = 'data.txt';
+
+      var txt = '{"name":"John", "age":30, "city":"New York"}'
       var obj = JSON.parse(txt);
       document.getElementById("bnd").innerHTML = obj.name + ", " + obj.age;
 
