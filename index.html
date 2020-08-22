@@ -9,9 +9,10 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
     <script>
+    var obj = JSON.parse('data.txt');
       $(document).on("ready",function()
       {
-          $.get('data.txt',{id:"bitcoin"},function(data){
+          $.get(obj,{id:"bitcoin"},function(data){
               $('#bnd').html(data);
           });
       });
