@@ -9,13 +9,9 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
     <script>
-    var txt = '{"name":"John", "age":30, "city":"New York"}'
-    var obj = JSON.parse(txt);
-    document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
-    {
-        $('#bnd').html(data);
-    }
-
+      var txt = 'data.txt';
+      var obj = JSON.parse(txt);
+      document.getElementById("bnd").innerHTML = obj.name + ", " + obj.age;
 
     </script>
     <meta name="robots" content="index, follow">
