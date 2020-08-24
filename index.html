@@ -9,11 +9,10 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
     <script>
-      $(document).on("ready",function()
-      {
-          $.get(JSON.parse('data.txt'),{id:"bitcoin"},function(data){
-              $('#bnd').html(data);
-          });
+      $(function(){
+        $.get('data.txt',function(data){
+          console.log(data);
+        });
       });
 
     </script>
@@ -22,7 +21,7 @@
     <meta name="description" content="">
     <title>DistBit Wallet By DistBit</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Scroll Animation -->
     <link href="css/aos.css" rel="stylesheet">
@@ -34,10 +33,6 @@
     <link rel="stylesheet" href="css/responsivemenu.css">
     <!-- Slick Slider CSS -->
     <link href="css/slick.css" rel="stylesheet">
-    <!-- Magnific Popup CSS -->
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <!-- Donut Chart CSS -->
-    <link href="css/donut-chart.css" rel="stylesheet">
     <!-- Typography CSS -->
     <link href="css/typography.css" rel="stylesheet">
     <!-- Widget Css -->
@@ -121,7 +116,7 @@
                               <!--Image---------------------->
                               <div class="col-md-6 col-sm-6">
                                   <div class="" style="padding-left: 20px; padding-right: 20px;">
-                                        <img src="img/img1.svg" alt="">
+                                        <img src="img/img1.png" alt="">
                                   </div>
                               </div>
                           </div>
@@ -134,7 +129,7 @@
                 <div class="row">
                     <!--Image---------------------->
                     <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-right" data-aos-delay="300" >
-                          <img src="img/img7.svg" alt="">
+                          <img src="img/img2.png" alt="">
                     </div>
                   <!--Content---------------------->
                   <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
@@ -170,7 +165,7 @@
             </div>
                 <!--Image---------------------->
                 <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-right" data-aos-delay="300" >
-                      <img src="img/img4.svg" alt="">
+                      <img src="img/img3.png" alt="">
                 </div>
         </div>
         <div class="row">
@@ -178,7 +173,7 @@
           <div class="col-md-3 col-sm-3" data-aos="fade-up">
             <div class="img-center">
               <figure class="center-block">
-                <img src="img/ico1.svg" alt="" style="vertical-align:center;">
+                <img src="img/ico1.png" alt="" style="vertical-align:center;">
               </figure>
             </div>
             <!--Text--->
@@ -191,7 +186,7 @@
           <div class="col-md-3 col-sm-3" data-aos="fade-up">
             <div class="img-center">
               <figure class="center-block">
-                <img src="img/ico2.svg" alt="" style="vertical-align:center;">
+                <img src="img/ico2.png" alt="" style="vertical-align:center;">
               </figure>
             </div>
             <!--Text--->
@@ -204,7 +199,7 @@
           <div class="col-md-3 col-sm-3" data-aos="fade-up">
             <div class="img-center">
               <figure class="center-block">
-                <img src="img/ico3.svg" alt="" style="vertical-align:center;">
+                <img src="img/ico3.png" alt="" style="vertical-align:center;">
               </figure>
             </div>
             <!--Text--->
@@ -217,7 +212,7 @@
           <div class="col-md-3 col-sm-3" data-aos="fade-up">
             <div class="img-center">
               <figure class="center-block">
-                <img src="img/ico4.svg" alt="" style="vertical-align:center;">
+                <img src="img/ico4.png" alt="" style="vertical-align:center;">
               </figure>
             </div>
             <!--Text--->
@@ -247,7 +242,7 @@
       <div class="">
         <!--Image--->
         <figure class="center-block">
-          <img src="img/img2.svg" alt="">
+          <img src="img/img4.png" alt="">
         </figure>
       </div>
 
@@ -267,7 +262,7 @@
       <div class="">
         <!--Image--->
         <figure class="center-block">
-          <img src="img/img3.svg" alt="">
+          <img src="img/img6.png" alt="">
         </figure>
       </div>
 
@@ -295,7 +290,7 @@
                   </div>
                   <!--Image---------------------->
                   <div class="col-md-6 col-sm-6 align-self-center" data-aos="fade-right" data-aos-delay="300" >
-                        <img src="img/img6.svg" alt="" style="vertical-align:center;">
+                        <img src="img/img5.png" alt="" style="vertical-align:center;">
                   </div>
                 </div>
             </div>
@@ -326,7 +321,7 @@
                         <p>Binance Coin</p>
                       </div>
                     </div>
-                    <p id="bnd" style="font-size: 15px;"> </p>
+                    <p style="font-size: 13px;">13.6729282069091909 USD</p>
                   </div>
                 </div>
                 <!--2--->
@@ -343,7 +338,7 @@
                         <p>Bitcoin</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">6929.8217756835584756 USD</p>
                   </div>
                 </div>
                 <!--3--->
@@ -360,7 +355,7 @@
                         <p>Ethereum Classic</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">18.0749160481439673 USD</p>
                   </div>
                 </div>
                 <!--4--->
@@ -377,7 +372,7 @@
                         <p>Ethereum</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">404.9774667045200896 USD</p>
                   </div>
                 </div>
                 <!--5--->
@@ -394,7 +389,7 @@
                         <p>Huobi</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">2.7903751472783352 USD</p>
                   </div>
                 </div>
 
@@ -412,7 +407,7 @@
                         <p>ChainLink</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">0.2347676371321109 USD</p>
                   </div>
                 </div>
                 <!--7--->
@@ -429,60 +424,10 @@
                         <p>Litecoin</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">73.3479339685586096 USD</p>
                   </div>
                 </div>
-                <!--8--->
-                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
-                  <div class="row justify-content-center card-row" >
-                    <!--IMG-->
-                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
-                      <img src="img/coins/SAI.png" alt="" class="card-img">
-                    </div>
-                    <!--TEXT-->
-                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
-                      <div class="card-text c-text-p p" style="text-align:left;">
-                        <h6>SAI</h6>
-                        <p>SAI</p>
-                      </div>
-                    </div>
-                    <p style="font-size: 15px;">00.0000</p>
-                  </div>
-                </div>
-                <!--9--->
-                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
-                  <div class="row justify-content-center card-row" >
-                    <!--IMG-->
-                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
-                      <img src="img/coins/TUSD.png" alt="" class="card-img">
-                    </div>
-                    <!--TEXT-->
-                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
-                      <div class="card-text c-text-p p" style="text-align:left;">
-                        <h6>TUSD</h6>
-                        <p>TrueUSD</p>
-                      </div>
-                    </div>
-                    <p style="font-size: 15px;">00.0000</p>
-                  </div>
-                </div>
-                <!--10--->
-                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
-                  <div class="row justify-content-center card-row" >
-                    <!--IMG-->
-                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
-                      <img src="img/coins/USDC.png" alt="" class="card-img">
-                    </div>
-                    <!--TEXT-->
-                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
-                      <div class="card-text c-text-p p" style="text-align:left;">
-                        <h6>USDC</h6>
-                        <p>USD Coin</p>
-                      </div>
-                    </div>
-                    <p style="font-size: 15px;">00.0000</p>
-                  </div>
-                </div>
+
 
                 <!--11--->
                 <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
@@ -498,7 +443,7 @@
                         <p>Tether</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">1.0009115584940656 USD</p>
                   </div>
                 </div>
                 <!--12--->
@@ -515,7 +460,7 @@
                         <p>Waves</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">1.8200500849231237 USD</p>
                   </div>
                 </div>
                 <!--13--->
@@ -532,7 +477,7 @@
                         <p>Stellar</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">0.2341611226032443 USD</p>
                   </div>
                 </div>
                 <!--14--->
@@ -549,7 +494,7 @@
                         <p>Ripple</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">0.4202870472643482 USD</p>
                   </div>
                 </div>
                 <!--15--->
@@ -566,7 +511,59 @@
                         <p>Tezos</p>
                       </div>
                     </div>
-                    <p style="font-size: 15px;">00.0000</p>
+                    <p style="font-size: 13px;">1.8421289252810679 USD</p>
+                  </div>
+                </div>
+
+                <!--8--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/SAI.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>SAI</h6>
+                        <p>SAI</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 13px;">00.0000 USD</p>
+                  </div>
+                </div>
+                <!--9--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/TUSD.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>TUSD</h6>
+                        <p>TrueUSD</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 13px;">00.0000 USD</p>
+                  </div>
+                </div>
+                <!--10--->
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5 card" >
+                  <div class="row justify-content-center card-row" >
+                    <!--IMG-->
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <img src="img/coins/USDC.png" alt="" class="card-img">
+                    </div>
+                    <!--TEXT-->
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-10 align-self-center" style="padding:0; text-align:center;">
+                      <div class="card-text c-text-p p" style="text-align:left;">
+                        <h6>USDC</h6>
+                        <p>USD Coin</p>
+                      </div>
+                    </div>
+                    <p style="font-size: 13px;">00.0000 USD</p>
                   </div>
                 </div>
 
@@ -624,27 +621,21 @@
     <script src="js/aos.js"></script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <!-- bootstrap -->
-    <script src="js/bootstrap.js"></script>
+    <!-- bootstrap>
+    <script src="js/bootstrap.js"></script-->
     <!-- Slick Slider -->
     <script src="js/slick.min.js"></script>
     <!--Responsive Menu js -->
     <script src="js/responsivemenu.js"></script>
-    <!-- Popup Js -->
-    <script src="js/magnific-popup.js"></script>
     <!-- Fontawesome Js -->
     <script src="js/fontawesome.js"></script>
-    <!-- Donut Chart Js -->
-    <script src="js/donut-chart.js"></script>
+
     <script src="js/responsive.min.js"></script>
     <!-- Onepage Nav Js -->
     <script src="js/jquery.nav.js"></script>
     <!-- FORMS VALIDATION   -->
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/contact-form-validation.min.js"></script>
-    <!-- Map Api Library -AIzaSyDbj_PE71ocTwX_MVhtTXrDJ3p61HvV018-->
-    <script src="http://maps.google.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-    <script src="js/gmap3.min.js"></script>
     <!--Custom Script-->
     <script src="js/custom.js"></script>
 </body>
