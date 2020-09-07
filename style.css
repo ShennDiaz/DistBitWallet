@@ -99,7 +99,7 @@ section{
     z-index: 2;
     float: left;
     width: 100%;
-    padding: 30px 0 0;
+    /*padding: 30px 0 0;*/
     position: relative;
     transition: background .3s ease,box-shadow .3s ease, padding .4s ease;
     -o-transition: background .3s ease,box-shadow .3s ease, padding .4s ease;
@@ -174,9 +174,13 @@ section{
     width: 100%;
     left: 0;
 }
+/*boton menu*/
 .navigation nav ul > li:hover > a,
 .navigation nav ul > li > a:hover{
-    background-color: transparent
+    background-color: #1753ec;
+}
+ a:hover{
+    background-color: #1753ec;
 }
 .navigation ul.sub-menu li a:hover{
     background: #f2f4f6
@@ -1880,7 +1884,10 @@ footer.dark-black .widget_recent_entries ul li{
     .img-center2{
      padding-top: 50%;
     }
+    #boton { margin-bottom: 20px; margin-left: 25%;}
   }
+
+
 
   @media (max-width: 775px){
     .grey{
@@ -1903,6 +1910,7 @@ footer.dark-black .widget_recent_entries ul li{
      .img-center{
       padding-top:0;
      }
+     #boton { margin-bottom: 20px; margin-left: 25%;}
 
   }
 
@@ -1933,19 +1941,6 @@ footer.dark-black .widget_recent_entries ul li{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
-  }
-
-  #boton {
-    background-color: #1652f0;
-    color: #fff;
-    padding: 10px;
-    font-size: 17px;
-    width: 45%;
-    margin-left: 25%;
-  }
-  #boton:hover {
-    cursor: pointer;
-    background-color: #3d94ee;
   }
 
   .card {

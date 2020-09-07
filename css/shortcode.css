@@ -1,5 +1,5 @@
 /* #PRELOADER  ============================================== */
-/* This only works with JavaScript, 
+/* This only works with JavaScript,
 if it's not present, don't show loader */
 #loader-overflow{
   display:block;
@@ -9,7 +9,7 @@ if it's not present, don't show loader */
   top: 0;
   left: 0;
   background: #fefefe;
-  z-index: 99999;   
+  z-index: 99999;
 }
 .loader-cont{
   position: absolute;
@@ -23,15 +23,15 @@ if it's not present, don't show loader */
   height: 40px;
   margin: -20px 0 0 -20px;
   background-color: #b6b6b7;
-  border-radius: 50%;  
+  border-radius: 50%;
   -webkit-animation: scaleout 1.1s infinite ease-in-out;
   animation: scaleout 1.1s infinite ease-in-out;
-  
+
   text-indent: -99999px;
   z-index: 999991;
 }
 @-webkit-keyframes scaleout {
-  0% { 
+  0% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -42,7 +42,7 @@ if it's not present, don't show loader */
   }
 }
 @keyframes scaleout {
-  0% { 
+  0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -123,7 +123,7 @@ if it's not present, don't show loader */
     margin: 0 0 0 15px;
 }
 .social-list li:first-child{
-    margin-left:0; 
+    margin-left:0;
 }
 .social-list li a{
     float: left;
@@ -171,7 +171,7 @@ if it's not present, don't show loader */
     background-color: transparent;
 }
 .btn.border.th-bdr:hover{
-    color: #fff;
+    color: #141414;
 }
 .btn.th-bg{
     color: #fff;
@@ -211,7 +211,7 @@ if it's not present, don't show loader */
 }
 .white-bg.btn{
     background-color: #fff;
-} 
+}
 /*
       ============================================================
           Blog Meta Css Start
@@ -276,7 +276,7 @@ if it's not present, don't show loader */
     position: relative;
     /* margin-bottom: 30px; */
 }
-.form-control, 
+.form-control,
 .enter-email input[type="text"]{
     float: left;
     width: 100%;
@@ -295,7 +295,7 @@ if it's not present, don't show loader */
 }
 textarea.form-control{
     resize: none;
-    height: 110px; 
+    height: 110px;
     padding-top:15px;
     /* border-radius: 30px; */
 }
@@ -333,14 +333,14 @@ input[type="submit"].submit-btn{
 .gsc-above-wrapper-area-container td{
     border: none !important;
 }
-/* Do no display the count of search results */    
+/* Do no display the count of search results */
 .gsc-result-info {
     /* display: none; */
 }
 
 /* Hide the Google branding in search results */
 .gcsc-branding {
-    display: none; 
+    display: none;
 }
 
 /* Hide the thumbnail images in search results */
@@ -349,7 +349,7 @@ input[type="submit"].submit-btn{
 }
 .gsc-table-cell-snippet-close{
     border: none;
-}   
+}
 .gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top{
     padding: 0 !important;
 }
@@ -364,14 +364,14 @@ input[type="submit"].submit-btn{
     border-width:1px 0 !important;
 }
 /* Hide the snippets in Google search results */
-.gs-snippet { 
+.gs-snippet {
     /* display: none; */
     border: none;
 }
 
 /* Change the font size of the title of search results */
-.gs-title a { 
-    font-size: 16px;  
+.gs-title a {
+    font-size: 16px;
 }
 
 /* Change the font size of snippets inside search results */
@@ -424,7 +424,7 @@ input[type="submit"].submit-btn{
     max-width: 310px;
     text-align: center; */
 }
-#notification_container .alert-dismissable, 
+#notification_container .alert-dismissable,
 #notification_container .alert-dismissible{
     margin: 0;
     z-index: 2;
