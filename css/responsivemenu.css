@@ -63,6 +63,6 @@ a.meanmenu-reveal{display:none;}
 .mean-container .mean-bar, .mean-container .mean-bar *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
 .mean-remove{display:none !important;}
 .mean-nav > ul {
-  height: 294px;
+  height: 270px;
   overflow-y: scroll;
 }

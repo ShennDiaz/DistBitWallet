@@ -174,11 +174,12 @@ section{
     width: 100%;
     left: 0;
 }
-/*boton menu*/
+/* menu efecto mause*/
 .navigation nav ul > li:hover > a,
 .navigation nav ul > li > a:hover{
-    background-color: #1753ec;
+    background-color: transparent;
 }
+
  a:hover{
     background-color: #1753ec;
 }
@@ -1910,7 +1911,7 @@ footer.dark-black .widget_recent_entries ul li{
      .img-center{
       padding-top:0;
      }
-     #boton { margin-bottom: 20px; margin-left: 25%;}
+     #boton { margin-bottom: 10px; margin-left: 25%;}
 
   }
 

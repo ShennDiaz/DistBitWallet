@@ -162,7 +162,8 @@ if it's not present, don't show loader */
     padding: 18px 30px 17px;
 }
 .btn:hover{
-    color: #fff;
+    color: #fff !important;
+    background-color: #1852f1 !important;
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.15)
 }
 .btn.border{
