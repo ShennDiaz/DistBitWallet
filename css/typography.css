@@ -60,7 +60,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 p {
     font-family: 'Roboto',sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6em;
     font-weight: 300;
 }
@@ -69,15 +69,18 @@ p a {
 }
 /* Peragraph Typo */
 a {
-  color: /* #3a535a */ #222222;
+  color: #169af0;
   text-decoration: none;
 }
 *:focus,
 a:hover, a:focus, a:active {
   outline: none;
   text-decoration: none;
-  color: #333;
+  color:  #169af0;
+  -webkit-transition: all 0s ease-in-out;
 }
+.card-2 a:hover, .card-2:hover  { color:  #ffffff; -webkit-transition: all 0s ease-in-out; background-color:#a3adbd; }
+
 .title *:focus,
 .title a:hover, .title a:focus, .title a:active {
   color: inherit;
