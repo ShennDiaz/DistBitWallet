@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Soporte DistBit Wallet</title>
+
+    <script src="js/jquery.js"></script>
+  	<script src="js/load.js"></script>
+  	<script src="js/jquery.dataTables.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Scroll Animation -->
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Flat Icon CSS -->
+    <link href="css/svg.css" rel="stylesheet">
+    <!-- Responsive Menu css -->
+    <link rel="stylesheet" href="css/responsivemenu.css">
+    <!-- Slick Slider CSS -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- Typography CSS -->
+    <link href="css/typography.css" rel="stylesheet">
+    <!-- Widget Css -->
+    <link href="css/widget.css" rel="stylesheet">
+    <!-- Short Code CSS -->
+    <link href="css/shortcode.css" rel="stylesheet">
+    <!-- Custom Style CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Color CSS -->
+    <link href="css/color.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="img/icon.svg">
+    <link rel="apple-touch-icon" href="img/icon.svg">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icon.svg">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon.svg">
+    <link rel="icon" sizes="192x192" href="img/icon.svg">
+    <link rel="stylesheet" href="fonts/style.css">
+
+
+</head>
+<body >
+    <!-- LOADER -->
+    <div id="loader-overflow">
+        <div id="loader3" class="loader-cont">Please enable JS</div>
+    </div>
+    <!--END LOADER -->
+    <div class="main-wrapper"  id="home">
+      <header id="header" style="height: 150px;">
+    <!-- MENU Navigation -->
+        <div class="nav-outer sticky-header">
+            <div class="container">
+          <!--LOGO-->
+                <h1 class="logo">
+                        <a href="index.html" style="background-color: transparent;">
+                            <img src="img/logo-wallet.svg" class="logo-img" style="margin-top: 10px; margin-bottom: 10px;">
+                        </a>
+                    </h1>
+              <!--MENU-->
+              <div class="pull-right menu-holder">
+                      <div class="mobile-menu"></div>
+                      <div id="opg-nav" class="main-menu navigation">
+                          <nav>
+                              <ul>
+                                    <li class="active"><a href="#home">Inicio</a></li>
+                                    <li><a href="#features" >Caracteristicas</a></li>
+                                    <li><a href="#exchange" >Exchange</a></li>
+                                    <li><a href="#crypto">Monedas</a></li>
+                                    <li> <a href="https://distbit.io/" id="boton" class="btn radius-5 th-bg  boton"
+                                                 style="font-weight: 400; margin-top: -10px; padding: 10px 20px 10px; color:#fff;">DistBit WEB</a></li>
+                            </nav>
+                        </div>
+                    </div> <!--END MENU-->
+                </div>
+            </div>  <!--END MENU Navigation -->
+        </header>
+<!--1 SECTION---------------------->
+          <section class="min-head">
+            <div class="container">
+              <div class="row  justify-content-center" style="margin: 10px; text-align:center;">
+                <h4 class="">¿Cómo podemos ayudarte?
+                  <br>
+                  <hr style=" border-top: 3px solid #1852f1; margin-top: 10px; margin-bottom:50px;" width="100%">
+                </h4>
+              </div>
+              <div class="row justify-content-center ">
+                  <input style="max-width: 70%; border-radius: 20px; border: 1px solid #ccc; padding-right: 30px; padding-left: 30px;" type="search" placeholder="Buscar" id="inputBusqueda"/>
+              </div>
+              <div class="row">
+                <!-- Busqueda -->
+                  <div class="search" id="search">
+                    <table class="search-tabla" id="searchTabla">
+                      <thead><tr><td></td></tr></thead>
+                      <tbody id="tabla"></tbody>
+                    </table>
+                  </div>
+                <!-- Contenido -->
+              </div>
+            </div>
+          </section>
+<!--SECTION---------------------->
+          <section style="padding-top:0px;">
+            <div class="container" style="max-width: 1500px;" >
+              <div class="row justify-content-center" style="margin:30px;">
+
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2">
+                  <div class="">
+                    <a href="support-swap.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Intercambio de criptomonedas<br> Swap</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2">
+                  <div class="">
+                    <a href="support-walletandsecurity.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Funciones de billetera <br> y seguridad</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2">
+                  <div class="">
+                    <a href="support-buyandsell.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Compra y venta de <br> criptomonedas</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2"> <!--/////////////----------->
+                  <div class="">
+                    <a href="support-cryptocurrencyquestions.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Preguntas frecuentes sobre criptomonedas</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2">
+                  <div class="">
+                    <a href="support-identityverification.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Verificación de <br> identidad</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2">
+                  <div class="">
+                    <a href="support-interestaccount.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Cuenta de <br> intereses</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-5 col-md-5 col-lg-3 card-2">
+                  <div class="">
+                    <a href="support-borrow.html">
+                      <div class="" style="padding:30px; text-align: center;">
+                        <p style="font-weight: 400;">Pedir prestado</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+<!--END SECTION----------------------->
+
+
+
+
+<!--FOOTER---------------------->
+        <section style="background-color:#000;">
+          <div class="container">
+            <div class="row justify-content-center">
+                <!--Title---------------------->
+                      <h2 class="banner-title size-h1" style="text-align:center; color: #fff; font-size: 40px;">
+                        Comienza a vender y comprar criptomonedas de manera <br> segura e intuitiva
+                      <!--Button-->
+                    <div class="align-center btn-trans" style=" padding-top: 50px; text-align:center;">
+                      <a href="#" class="butun"> <img src="img/googleplay2.svg" alt="" style=" margin: 15px;"> </a>
+                      <a href="#"> <img src="img/appstore2.svg" alt="" style=" margin: 15px;"> </a>
+                    </div>
+            </div>
+          </div>
+        </section>
+<!-- SECTION---------------------->
+        <div class="copy-right light-black-bg">
+            <div class="container">
+              <div class="">
+                  <ul class="short-nav btn-trans" style="font-size: 20px; color:#fff;">
+                      <li style="font-size: 20px; color:#fff;"><a href="#"> <span class="icon-twitter"></span> </a></li>
+                      <li style="font-size: 20px; color:#fff;"><a href="#"> <span class="icon-facebook"></span> </a></li>
+                      <li style="font-size: 20px; color:#fff;"><a href="#"> <span class="icon-brand2"></span> </a></li>
+                      <li style="font-size: 20px; color:#fff;"><a href="https://www.linkedin.com/company/distbit/"> <span class="icon-social3"></span> </a></li>
+                  </ul>
+              </div>
+                <div class="pull-left" style="margin-top: 20px;">
+                    <p>Copyright © 2020 DistBitWallet. Todos los derechos reservados.</p>
+                </div>
+                <div class="pull-right">
+                    <ul class="short-nav btn-trans">
+                      <li><a href="termsandconditions.html">Términos y Condiciones</a></li>
+                      <li><a href="support.html">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--aos animate-->
+    <script src="js/aos.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap>
+    <script src="js/bootstrap.js"></script-->
+    <!-- Slick Slider -->
+    <script src="js/slick.min.js"></script>
+    <!--Responsive Menu js -->
+    <script src="js/responsivemenu.js"></script>
+    <!-- Fontawesome Js -->
+    <script src="js/fontawesome.js"></script>
+
+    <script src="js/responsive.min.js"></script>
+    <!-- Onepage Nav Js -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- FORMS VALIDATION   -->
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/contact-form-validation.min.js"></script>
+    <!--Custom Script-->
+    <script src="js/custom.js"></script>
+
+    <script src="js/buscador.js"></script>
+
+
+</body>
+</html>

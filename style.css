@@ -1922,13 +1922,14 @@ footer.dark-black .widget_recent_entries ul li{
 
 
   form {
-
     margin: auto;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;
     padding: 40px 60px;
     padding-bottom: 20px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 10px;*/
+    background-color: transparent;
+    padding: 0;
   }
   .map {
   margin-top: 50px;
@@ -1984,3 +1985,65 @@ footer.dark-black .widget_recent_entries ul li{
 .num { list-style: decimal;}
 .blue-pointer { list-style: disc; color: #165df0; font-size: 25px;}
 .blue-pointer h6 {color:#333333; line-height: 2;}
+
+
+
+/*GOOGLE SEARCH..............................................................*/
+.gsc-control-cse {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+.gsc-input-box {
+    /*border: 1px solid #dfe1e5;*/
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+#gsc-i-id1 {
+  placeholder="Qué deseas buscar?";
+}
+.gsc-search-button-v2 {
+    font-size: 0;
+    padding: 6px 27px;
+    width: auto;
+    vertical-align: middle;
+    border: transparent !important;
+    border-radius: 10px !important;
+    background-color: #4d90fe;
+}
+svg {
+  height: 25px !important;
+  width: 25px !important;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+#gsc-i-id1 {
+  background: none !important;
+  margin: 0px 20px !important;
+}
+div .gcsc-more-maybe-branding-root { visibility: collapse !important; }
+div .gsc-results-wrapper-overlay {
+  position: unset !important;
+}
+.gsc-modal-background-image-visible {
+  opacity: 0 !important;
+  display: none !important;
+}
+.gsc-results-close-btn {
+  background-image: none !important;
+  position: unset !important;
+}
+.gsst_b {
+padding: 0 30px !important;
+ }
+ #gs_st50 a:hover {
+    background-color: transparent !important;
+}
+.gscb_a {
+    line-height: 50px !important;
+    font-size: 40px !important;
+}
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+    border: 1px solid rgb(22, 152, 240) !important;
+    background-color: rgb(195, 236, 255) !important;
+}

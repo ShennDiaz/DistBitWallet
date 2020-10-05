@@ -232,8 +232,8 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     line-height: 2.5;
     padding-left: 7px;
     vertical-align: top;
-    border: 1px solid #dddddd;
-    border-top: 1px solid #dddddd;
+    /*border: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;*/
 }
 table thead tr th {
     border-top: 1px solid #d2d2d2;
